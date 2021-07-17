@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Even - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content in Posts on Even - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 07 Jun 2021 17:10:28 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Low Code</title>
+      <link>http://localhost:1313/post/low-code/</link>
+      <pubDate>Mon, 07 Jun 2021 17:10:28 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/low-code/</guid>
+      <description>低代码 M项目 去年3月，上了一个M项目，当时客户想要做一个工作流平台给People团队来支撑员工入离职·请假等流程。客户前期在技术选型方面和以</description>
+    </item>
+    
+    <item>
+      <title>读书记录</title>
+      <link>http://localhost:1313/post/booklist/</link>
+      <pubDate>Thu, 27 May 2021 17:07:50 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/booklist/</guid>
+      <description>总结 [TODO] [READING] [DONE] HTTP权威指南 (图灵程序设计丛书 69) Docker——容器与容器云（第2版）（图灵图书） 函数式编程思维 (图灵程序设计丛书) Programming in Scala JavaScript Functional</description>
+    </item>
+    
+    <item>
+      <title>FP学习笔记(基于JS)</title>
+      <link>http://localhost:1313/post/fp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Tue, 25 May 2021 08:59:10 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/fp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <description>Question test latex equation chain 就是 compose(join，map) \[ \int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2} \] $a^2 + b^2 = c^2$ $\TeX$ $\pi$ functor: 算子 A functor is a container of type a that, when subjected to a function that maps from a→b, yields a container of type b.我</description>
+    </item>
+    
+    <item>
+      <title>前端学习笔记</title>
+      <link>http://localhost:1313/post/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Mon, 24 May 2021 17:12:05 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <description>React Native 前言: 最近独自上了一个纯前端 RN 的小项目, 项目没有后端, 前端用 RN 做原型, 这个项目后面还要用 RN 做一个大的项目, 所以趁这段时间, 学习整理下 RN 的</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/2021%E4%B8%AA%E4%BA%BA%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2021%E4%B8%AA%E4%BA%BA%E6%80%BB%E7%BB%93/</guid>
+      <description>–text follows this line– 上半年个人总结 项目方面 REA 年后作为TL上了REA一个数据迁移的项目 带领团队能力建设: 刚上项目的时候，和组上的同事们面临</description>
+    </item>
+    
+  </channel>
+</rss>
