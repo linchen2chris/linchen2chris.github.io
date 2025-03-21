@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Even - A super concise theme for Hugo</title><link>http://localhost:1313/</link><description>Recent content on Even - A super concise theme for Hugo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 14 Mar 2025 18:05:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>对抗脆弱性</title><link>http://localhost:1313/post/fragile/</link><pubDate>Thu, 29 Sep 2022 13:34:40 +0800</pubDate><guid>http://localhost:1313/post/fragile/</guid><description>&lt;div id="outline-container-headline-1" class="outline-2">
+&lt;h2 id="headline-1">
+背景
+&lt;/h2>
+&lt;div id="outline-text-headline-1" class="outline-text-2">
+&lt;p>4 月的时候上了一个新项目, 项目是搭建一个平台给 flutter 应用做 E2E 自动化测试，项目架构可以简化成下图.&lt;/p>
+&lt;img src="https://linchen2chris.github.io/post/fragile/arch.png" alt="https://linchen2chris.github.io/post/fragile/arch.png" title="https://linchen2chris.github.io/post/fragile/arch.png" width="400" style="border:2px solid black;" align="center"/>
+&lt;ul>
+&lt;li>最底层绿色的部分是 flutter 官方 SDK, 其中主要使用了 integration_test 的包, 其中深绿色的小块是我们做的扩展.
+ 项目初期的同事们做了许多调研性的工作, 搭建了平台, 对 flutter 自动化测试能力摸底, 把很多可能的坑都暴露出来, 包括 flutter 本身技术限制或 bug 导致测试能力局限. 并做了 workaround 的填补, 对测试能力进行扩充。比如支持文件上传和下载文件检查，支持邮件内容检查.&lt;/li>
+&lt;li>第二层黄色的部分是要测的应用程序.&lt;/li>
+&lt;li>第三层红色的部分是我们的测试平台, 使用了一个叫 flutter_gherkin 的包, 可以把最上层的 cucumber test 转化为可执行的测试代码, 测试代码和项目的源代码一起打包运行在浏览器中, 最后由 chromedriver 生成出每一步的测试结果报告.&lt;/li>
+&lt;li>最上层白色的部分就是 测试人员利用我们在第三层写的 step 来写一个个具体的测试用例.&lt;/li>
+&lt;/ul>
+&lt;p>理想中通过复用第三层的 step 库, 可以对任意 flutter 应用进行自动化测试, 测试人员需要做的只是在上层写新的测试用例.&lt;/p></description></item><item><title>卓有成效的管理者</title><link>http://localhost:1313/post/management/</link><pubDate>Mon, 09 Aug 2021 17:00:38 +0800</pubDate><guid>http://localhost:1313/post/management/</guid><description>&lt;p>
+书里总结了五个部分：&lt;/p>
+&lt;div id="outline-container-headline-1" class="outline-2">
+&lt;h2 id="headline-1">
+时间管理
+&lt;/h2>
+&lt;div id="outline-text-headline-1" class="outline-text-2">
+&lt;p>方法: 记录时间, 管理时间, 统一管理时间(把碎片时间聚拢起来,零零碎碎的时间，纵然总数有 3/4 个工作日，也是毫无用处)&lt;/p></description></item><item><title>Low Code</title><link>http://localhost:1313/post/low-code/</link><pubDate>Mon, 07 Jun 2021 17:10:28 +0800</pubDate><guid>http://localhost:1313/post/low-code/</guid><description>&lt;div id="outline-container-headline-1" class="outline-2">
+&lt;h2 id="headline-1">
+低代码
+&lt;/h2>
+&lt;div id="outline-text-headline-1" class="outline-text-2">
+&lt;div id="outline-container-headline-2" class="outline-3">
+&lt;h3 id="headline-2">
+M 项目
+&lt;/h3>
+&lt;div id="outline-text-headline-2" class="outline-text-3">
+&lt;p>去年 3 月，上了一个 M 项目，当时客户想要做一个工作流平台给 People 团队来支撑员工入离职·请假等流程。客户前期在技术选型方面和以往的项目都不太一样，前端是一个成本很高的表单引擎，后端是一个业务流。
+前端表单引擎可以通过定义 yaml 文件快速生成一个员工表单页面，甚至这个页面会根据登录的员工预填其个人信息，但这个引擎对开发非常不友好，生成出来的表单，想做一点修改都非常困难，比如记得当时有一个文字对齐的 bug，和表单引擎的开发团队聊完之后发现完全无能为力。表单在收集了员工填写的信息之后，会发给后端，后端整理一下数据然后触发一个业务流（当时我们调研了 Microsoft flow, AWS stepFunction 等工具后选了 Step Function), 业务流会根据表单内容相应地给员工 manager 和 HR 等相关人员在相应时间结点发邮件，创建工单。&lt;/p></description></item><item><title>读书记录</title><link>http://localhost:1313/post/booklist/</link><pubDate>Thu, 27 May 2021 17:07:50 +0800</pubDate><guid>http://localhost:1313/post/booklist/</guid><description>&lt;div id="outline-container-headline-1" class="outline-2">
+&lt;h2 id="headline-1">
+2025
+&lt;/h2>
+&lt;div id="outline-text-headline-1" class="outline-text-2">
+&lt;div id="outline-container-headline-2" class="outline-3">
+&lt;h3 id="headline-2">
+&lt;span class="todo status-done">DONE&lt;/span>
+《&lt;a href="id:55d45232-0ea5-4a8d-8d98-52abb46fa3f2">解经式讲道&lt;/a>》
+&lt;/h3>
+&lt;div id="outline-text-headline-2" class="outline-text-3">
+&lt;ul>
+&lt;li>State &amp;#34;DONE&amp;#34; from &amp;#34;TODO&amp;#34; [2025-02-06 Thu 22:15]&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-3" class="outline-3">
+&lt;h3 id="headline-3">
+&lt;span class="todo status-done">DONE&lt;/span>
+《&lt;a href="id:20b54028-c421-49d9-ad2b-e00511808fd4">禅与摩托车的维修艺术&lt;/a>》
+&lt;/h3>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-4" class="outline-2">
+&lt;h2 id="headline-4">
+2024 &lt;code class="statistic">[12/12]&lt;/code>
+&lt;/h2>
+&lt;div id="outline-text-headline-4" class="outline-text-2">
+&lt;div id="outline-container-headline-5" class="outline-3">
+&lt;h3 id="headline-5">
+&lt;span class="todo status-done">DONE&lt;/span>
+go语言定制指南
+&lt;/h3>
+&lt;div id="outline-text-headline-5" class="outline-text-3">
+&lt;p>SCHEDULED: &lt;span class="timestamp">&amp;lt;2024-01-15 Mon&amp;gt;&lt;/span>&lt;/p>
+&lt;ul>
+&lt;li>State &amp;#34;DONE&amp;#34; from &amp;#34;DONE&amp;#34; [2025-03-14 Fri 11:29]&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>还不错的一本书，主要讲了Go的语法解析，语义分析， 它的AST， SST， 以及LLVM，最后利用LLVM和Go做了一个新语言的Demo&lt;/p></description></item><item><title>FP 学习笔记(基于 JS)</title><link>http://localhost:1313/post/fp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link><pubDate>Tue, 25 May 2021 08:59:10 +0800</pubDate><guid>http://localhost:1313/post/fp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid><description>&lt;div id="outline-container-headline-1" class="outline-2">
+&lt;h2 id="headline-1">
+Question
+&lt;/h2>
+&lt;div id="outline-text-headline-1" class="outline-text-2">
+&lt;p>
+$\pi$&lt;/p>
+&lt;p>
+$\sum_{n=0}^100n^2$&lt;/p>
+&lt;p>
+$\sqrt{a^2+b^2}=c^2$&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-2" class="outline-2">
+&lt;h2 id="headline-2">
+test latex equation
+&lt;/h2>
+&lt;div id="outline-text-headline-2" class="outline-text-2">
+&lt;p>
+chain 就是 compose(join，map)&lt;/p>
+&lt;div id="outline-container-headline-3" class="outline-3">
+&lt;h3 id="headline-3">
+functor: 算子
+&lt;/h3>
+&lt;div id="outline-text-headline-3" class="outline-text-3">
+&lt;p>A functor is a container of type a that, when subjected to a function that maps from a→b, yields a container of type b.我们的 map 函数就是一个算子。&lt;/p></description></item><item><title>前端学习笔记</title><link>http://localhost:1313/post/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link><pubDate>Mon, 24 May 2021 17:12:05 +0800</pubDate><guid>http://localhost:1313/post/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid><description>&lt;div id="outline-container-headline-1" class="outline-2">
+&lt;h2 id="headline-1">
+React Native
+&lt;/h2>
+&lt;div id="outline-text-headline-1" class="outline-text-2">
+&lt;p>前言: 最近独自上了一个纯前端 RN 的小项目, 项目没有后端, 前端用 RN 做原型, 这个项目后面还要用 RN 做一个大的项目, 所以趁这段时间, 学习整理下 RN 的入门知识, 主要针对从有 React 基础的人.&lt;/p></description></item></channel></rss>
