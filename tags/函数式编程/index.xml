@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>函数式编程 on Even - A super concise theme for Hugo</title><link>http://localhost:1313/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/</link><description>Recent content in 函数式编程 on Even - A super concise theme for Hugo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 25 May 2021 08:59:10 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>FP 学习笔记(基于 JS)</title><link>http://localhost:1313/post/fp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link><pubDate>Tue, 25 May 2021 08:59:10 +0800</pubDate><guid>http://localhost:1313/post/fp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid><description>&lt;div id="outline-container-headline-1" class="outline-2">
+&lt;h2 id="headline-1">
+Question
+&lt;/h2>
+&lt;div id="outline-text-headline-1" class="outline-text-2">
+&lt;p>
+$\pi$&lt;/p>
+&lt;p>
+$\sum_{n=0}^100n^2$&lt;/p>
+&lt;p>
+$\sqrt{a^2+b^2}=c^2$&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div id="outline-container-headline-2" class="outline-2">
+&lt;h2 id="headline-2">
+test latex equation
+&lt;/h2>
+&lt;div id="outline-text-headline-2" class="outline-text-2">
+&lt;p>
+chain 就是 compose(join，map)&lt;/p></description></item></channel></rss>
