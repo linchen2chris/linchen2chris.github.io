@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Even - A super concise theme for Hugo</title><link>http://localhost:1313/post/</link><description>Recent content in Posts on Even - A super concise theme for Hugo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 10 Apr 2025 16:16:35 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml"/><item><title>2025书单</title><link>http://localhost:1313/post/2025-booklist/</link><pubDate>Thu, 10 Apr 2025 15:20:06 +0800</pubDate><guid>http://localhost:1313/post/2025-booklist/</guid><description>&lt;p>2025年阅读的书书单&lt;/p>
+&lt;h2 id="哥德尔-埃舍尔和巴赫-集异璧之大成">&lt;span class="org-todo todo ING">ING&lt;/span> &lt;span class="section-num">1&lt;/span> 《哥德尔，埃舍尔和巴赫—集异璧之大成》&lt;/h2>
+&lt;figure>&lt;img src="http://localhost:1313/ox-hugo/20250410_151456screenshot.png" width="200px">
+&lt;/figure>
+
+&lt;h2 id="漫画理想国">&lt;span class="org-todo done DONE">DONE&lt;/span> &lt;span class="section-num">2&lt;/span> 《漫画理想国》&lt;/h2>
+&lt;figure>&lt;img src="http://localhost:1313/ox-hugo/20250410_151035screenshot.png" width="200px">
+&lt;/figure>
+
+&lt;h2 id="极简物理">&lt;span class="org-todo done DONE">DONE&lt;/span> &lt;span class="section-num">3&lt;/span> 《极简物理》&lt;/h2>
+&lt;figure>&lt;img src="http://localhost:1313/ox-hugo/20250410_151059screenshot.png" width="200px">
+&lt;/figure>
+
+&lt;h2 id="知识的边界">&lt;span class="org-todo done DONE">DONE&lt;/span> &lt;span class="section-num">4&lt;/span> 《知识的边界》&lt;/h2>
+&lt;figure>&lt;img src="http://localhost:1313/ox-hugo/20250401_181313screenshot.png" width="200px">
+&lt;/figure>
+
+&lt;h2 id="解经式讲道">&lt;span class="org-todo done DONE">DONE&lt;/span> &lt;span class="section-num">5&lt;/span> 《解经式讲道》&lt;/h2>
+&lt;figure>&lt;img src="http://localhost:1313/ox-hugo/20250410_151127screenshot.png" width="200px">
+&lt;/figure>
+
+&lt;h2 id="禅与摩托车的维修艺术">&lt;span class="org-todo done DONE">DONE&lt;/span> &lt;span class="section-num">6&lt;/span> 《禅与摩托车的维修艺术》&lt;/h2>
+&lt;figure>&lt;img src="http://localhost:1313/ox-hugo/20250410_151200screenshot.png" width="200px">
+&lt;/figure>
+
+&lt;blockquote>
+&lt;p>一本很好的哲学入门书, 涉及认识论中古典主义,浪漫主义. 逻辑和美, 其中关于良质的讨论更是让人心往神怡.&lt;/p></description></item><item><title>ADT</title><link>http://localhost:1313/post/20250410154753-adt/</link><pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/20250410154753-adt/</guid><description>&lt;h2 id="什么是代数数据类型">什么是代数数据类型&lt;/h2>
+&lt;p>(缩写：ADT）是一种复合类型，指由其他资料类型组合而成的类型，在电脑编程中，尤其是函数式编程和类型论中应用。
+两类常见的代数类型是积类型（即元组和记录）与和类型（即标签联合)&lt;/p></description></item><item><title>AWS SAP考试学习笔记</title><link>http://localhost:1313/post/20250410140746-sap/</link><pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/20250410140746-sap/</guid><description>&lt;h2 id="问题1">问题1&lt;/h2>
+&lt;h3 id="相关知识学习">相关知识学习&lt;/h3>
+&lt;ol>
+&lt;li>域: 是一个通用的 DNS 概念。域名是数字寻址 Internet 资源的易于识别的名称。例如，amazon.com 是一个域 &lt;br/>&lt;/li>
+&lt;li>托管区域: 是 Amazon Route 53 的一个概念。托管区域中的所有资源记录集都必须以托管区域的域名作为后缀。例如，amazon.com 托管区域可能包含名为 &lt;a href="https://www.amazon.com">www.amazon.com&lt;/a> 和 &lt;a href="https://www.aws.amazon.com">www.aws.amazon.com&lt;/a> 的记录，但不包含名为 &lt;a href="https://www.amazon.ca">www.amazon.ca&lt;/a> 的记录 &lt;br/>&lt;/li>
+&lt;li>共享服务VPC（Shared Services VPC）是一种网络架构模式，通常采用中心辐射型（Hub-and-Spoke）设计。 &lt;br/>&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>中心VPC (Hub):&lt;/strong> 部署通用服务，如目录服务 (Active Directory)、安全监控、日志、DNS、补丁管理等。 &lt;br/>
+&lt;strong>应用VPC (Spoke):&lt;/strong> 运行具体业务应用。 &lt;br/>
+&lt;strong>连接:&lt;/strong> 应用VPC通过VPC Peering、AWS Transit Gateway或PrivateLink等方式连接到中心VPC，以访问共享服务。 &lt;br/>&lt;/p></description></item><item><title>Lambda 演算</title><link>http://localhost:1313/post/20250409143644-lambda_calculus/</link><pubDate>Wed, 09 Apr 2025 16:36:28 +0800</pubDate><guid>http://localhost:1313/post/20250409143644-lambda_calculus/</guid><description>&lt;h2 id="什么是-lambda-演算">什么是 lambda 演算&lt;/h2>
+&lt;p>\(\lambda\) 演算（Lambda Calculus）是一种形式体系，它仅通过函数定义（抽象化）与函数应用这两种极为简单的操作来表达计算。它虽然简单，却是图灵完备的，可以模型化任何计算，并构成了函数式编程语言的理论基础。&lt;/p></description></item><item><title>2024书单</title><link>http://localhost:1313/post/2024-booklist/</link><pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/2024-booklist/</guid><description>&lt;h2 id="go语言定制指南">&lt;span class="org-todo done DONE">DONE&lt;/span> &lt;span class="section-num">1&lt;/span> 《go语言定制指南》&lt;/h2>
+&lt;blockquote>
+&lt;p>还不错的一本书，主要讲了Go的语法解析，语义分析， 它的AST， SST， 以及LLVM，最后利用LLVM和Go做了一个新语言的Demo&lt;/p></description></item><item><title>2023书单</title><link>http://localhost:1313/post/2023-booklist/</link><pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/2023-booklist/</guid><description>&lt;h2 id="学习-wasm-视频">&lt;span class="org-todo done DONE">DONE&lt;/span> &lt;span class="section-num">1&lt;/span> 《学习 wasm 视频》&lt;/h2>
+&lt;h2 id="牧羊少年奇幻之旅">&lt;span class="org-todo done DONE">DONE&lt;/span> &lt;span class="section-num">2&lt;/span> 《牧羊少年奇幻之旅》&lt;/h2>
+&lt;pre>&lt;code>EFFORT: 1:51
+&lt;/code>&lt;/pre>
+&lt;p>你追寻梦想，整个世界都会帮你&lt;/p></description></item><item><title>2022书单</title><link>http://localhost:1313/post/2022-booklist/</link><pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/2022-booklist/</guid><description>&lt;h2 id="courage-to-be-disliked">&lt;span class="org-todo done DONE">DONE&lt;/span> &lt;span class="section-num">1&lt;/span> 《Courage To Be Disliked》&lt;/h2>
+&lt;pre>&lt;code>AUTHOR: Fumitake Koga Ichiro Kishimi
+
+RATNEXT: :star::star::star::star::star:
+&lt;/code>&lt;/pre>
+&lt;blockquote>
+&lt;p>NOTE: 非常好的一本书，以前看过一下个体心理学的东西，这本书全面介绍了阿德勒的思想，概览了他的思想。&lt;/p></description></item><item><title>对抗脆弱性</title><link>http://localhost:1313/post/fragile/</link><pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/fragile/</guid><description>&lt;h2 id="背景">背景&lt;/h2>
+&lt;p>4 月的时候上了一个新项目, 项目是搭建一个平台给 flutter 应用做 E2E 自动化测试，项目架构可以简化成下图.&lt;/p></description></item><item><title>卓有成效的管理者</title><link>http://localhost:1313/post/management/</link><pubDate>Mon, 09 Aug 2021 17:00:38 +0800</pubDate><guid>http://localhost:1313/post/management/</guid><description>&lt;p>书里总结了五个部分： &lt;br/>&lt;/p>
+&lt;h2 id="时间管理">时间管理&lt;/h2>
+&lt;p>方法: 记录时间, 管理时间, 统一管理时间(把碎片时间聚拢起来,零零碎碎的时间，纵然总数有 3/4 个工作日，也是毫无用处) &lt;br/>&lt;/p></description></item><item><title>低代码</title><link>http://localhost:1313/post/low-code/</link><pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/low-code/</guid><description>&lt;h2 id="低代码">低代码&lt;/h2>
+&lt;h3 id="m-项目">M 项目&lt;/h3>
+&lt;p>去年 3 月，上了一个 M 项目，当时客户想要做一个工作流平台给 People 团队来支撑员工入离职·请假等流程。客户前期在技术选型方面和以往的项目都不太一样，前端是一个成本很高的表单引擎，后端是一个业务流。
+前端表单引擎可以通过定义 yaml 文件快速生成一个员工表单页面，甚至这个页面会根据登录的员工预填其个人信息，但这个引擎对开发非常不友好，生成出来的表单，想做一点修改都非常困难，比如记得当时有一个文字对齐的 bug，和表单引擎的开发团队聊完之后发现完全无能为力。表单在收集了员工填写的信息之后，会发给后端，后端整理一下数据然后触发一个业务流（当时我们调研了 Microsoft flow, AWS stepFunction 等工具后选了 Step Function), 业务流会根据表单内容相应地给员工 manager 和 HR 等相关人员在相应时间结点发邮件，创建工单。&lt;/p></description></item><item><title>FP 学习笔记(基于 JS)</title><link>http://localhost:1313/post/fp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link><pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/fp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 id="基本概念">基本概念&lt;/h2>
+&lt;p>chain 就是 compose(join，map)&lt;/p></description></item><item><title>前端学习笔记</title><link>http://localhost:1313/post/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link><pubDate>Mon, 24 May 2021 17:12:05 +0800</pubDate><guid>http://localhost:1313/post/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 id="react-native">React Native&lt;/h2>
+&lt;p>前言: 最近独自上了一个纯前端 RN 的小项目, 项目没有后端, 前端用 RN 做原型, 这个项目后面还要用 RN 做一个大的项目, 所以趁这段时间, 学习整理下 RN 的入门知识, 主要针对从有 React 基础的人.&lt;/p></description></item></channel></rss>
