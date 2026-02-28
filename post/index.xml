@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Even - A super concise theme for Hugo</title><link>http://localhost:1313/post/</link><description>Recent content in Posts on Even - A super concise theme for Hugo</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 10 Jul 2025 15:32:03 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml"/><item><title>2025书单</title><link>http://localhost:1313/post/2025-booklist/</link><pubDate>Thu, 10 Jul 2025 15:31:57 +0800</pubDate><guid>http://localhost:1313/post/2025-booklist/</guid><description>&lt;p&gt;2025年阅读的书书单&lt;/p&gt;
+&lt;h2 id="efficient-go"&gt;&lt;span class="org-todo todo ING"&gt;ING&lt;/span&gt; &lt;span class="section-num"&gt;1&lt;/span&gt; 《Efficient Go》&lt;/h2&gt;
+&lt;figure&gt;&lt;img src="http://localhost:1313/ox-hugo/2025/2025-07-10T15:23screenshot.png" width="200px"&gt;
+&lt;/figure&gt;
+
+&lt;h2 id="pathless-path"&gt;&lt;span class="org-todo done DONE"&gt;DONE&lt;/span&gt; &lt;span class="section-num"&gt;2&lt;/span&gt; 《Pathless Path》&lt;/h2&gt;
+&lt;figure&gt;&lt;img src="http://localhost:1313/ox-hugo/2025/2025-05-20T13:38screenshot.png" width="200px"&gt;
+&lt;/figure&gt;
+
+&lt;h2 id="认识圣经"&gt;&lt;span class="org-todo done DONE"&gt;DONE&lt;/span&gt; &lt;span class="section-num"&gt;3&lt;/span&gt; 《认识圣经》&lt;/h2&gt;
+&lt;figure&gt;&lt;img src="http://localhost:1313/ox-hugo/2025/2025-07-10T15:09screenshot.png" width="200px"&gt;
+&lt;/figure&gt;
+
+&lt;h2 id="哥德尔-埃舍尔和巴赫-集异璧之大成"&gt;&lt;span class="org-todo done DONE"&gt;DONE&lt;/span&gt; &lt;span class="section-num"&gt;4&lt;/span&gt; 《哥德尔，埃舍尔和巴赫—集异璧之大成》&lt;/h2&gt;
+&lt;figure&gt;&lt;img src="http://localhost:1313/ox-hugo/20250410_151456screenshot.png" width="200px"&gt;
+&lt;/figure&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;终于读完了这个巨著，打开了我的新世界，关于逻辑，悖论，智能的很多深入的讨论, 在当前AI火热的时节, 书中30多年前的很多内容仍然没有过时. 哥德尔不完全性等信息在启发我们未来AI的极限可能在哪里&lt;/p&gt;</description></item><item><title>function calling简介</title><link>http://localhost:1313/post/20250520134425-function_calling/</link><pubDate>Tue, 20 May 2025 14:47:41 +0800</pubDate><guid>http://localhost:1313/post/20250520134425-function_calling/</guid><description>&lt;h2 id="是什么"&gt;是什么&lt;/h2&gt;
+&lt;p&gt;函数调用是将 LLM 可靠地连接到外部工具以实现有效使用工具以及与外部 API 交互的能力。
+LLM 经过微调，可以检测何时需要调用函数，从 prompt 中提取出参数和结构,输出 JSON 以调用该函数。函数调用调用的函数将充当 AI 应用程序中的工具，&lt;/p&gt;</description></item><item><title>2023-12-22</title><link>http://localhost:1313/post/2023-12-22/</link><pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/2023-12-22/</guid><description>&lt;h2 id="grpc-for-golang"&gt;grpc for golang &lt;span class="tag"&gt;&lt;span class="____"&gt;不说废话&lt;/span&gt;&lt;span class="____"&gt;几句讲清&lt;/span&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;:EXPORT_FILE_NAME: grpc-golang
+:EXPORT_TITLE: grpc for golang简明小记
+:EXPORT_OPTIONS: toc:nil p:nil c:t num:t d:nil prop:(&amp;ldquo;AUTHOR&amp;rdquo; &amp;ldquo;RATNEXT&amp;rdquo; &amp;ldquo;URL&amp;rdquo; &amp;ldquo;EFFORT&amp;rdquo;) tags:nil date:nil broken-links:mark |:nil
+:ID: 8a805450-45d3-4f7f-9fa3-7a6fd184776c&lt;/p&gt;</description></item><item><title>grpc for golang简明小记</title><link>http://localhost:1313/post/grpc-golang/</link><pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/grpc-golang/</guid><description>&lt;p&gt;proto文件是服务端和客户端的共用的服务定义文件,&lt;/p&gt;</description></item><item><title>一分钟搞懂RAG</title><link>http://localhost:1313/post/20250507171409-rag/</link><pubDate>Wed, 07 May 2025 00:00:00 +0800</pubDate><guid>http://localhost:1313/post/20250507171409-rag/</guid><description>&lt;h2 id="rag"&gt;RAG&lt;/h2&gt;
+&lt;p&gt;世界上95%的信息都是私有信息, 无法用于模型训练, 但我们可以在使用模型时把这些信息喂给它. &lt;br/&gt;
+RAG 主要解决2个问题, 一是无法获取最新的信息. 二是幻想. &lt;br/&gt;
+RAG 在prompt 给 LLM 之前会先访问指定的信息源查找, 之后再把检索的信息一起喂给 LLM. &lt;br/&gt;
+它由2部分组成 retriever 和 knowledge base. &lt;br/&gt;&lt;/p&gt;</description></item><item><title>ADT</title><link>http://localhost:1313/post/20250410154753-adt/</link><pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/20250410154753-adt/</guid><description>&lt;h2 id="什么是代数数据类型"&gt;什么是代数数据类型&lt;/h2&gt;
+&lt;p&gt;(缩写：ADT）是一种复合类型，指由其他资料类型组合而成的类型，在电脑编程中，尤其是函数式编程和类型论中应用。
+两类常见的代数类型是积类型（即元组和记录）与和类型（即标签联合)&lt;/p&gt;</description></item><item><title>AWS SAP考试学习笔记</title><link>http://localhost:1313/post/20250410140746-sap/</link><pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/20250410140746-sap/</guid><description>&lt;h1 id="vpc"&gt;VPC&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;域: 是一个通用的 DNS 概念。域名是数字寻址 Internet 资源的易于识别的名称。例如，amazon.com 是一个域 &lt;br/&gt;&lt;/p&gt;</description></item><item><title>Lambda 演算</title><link>http://localhost:1313/post/20250409143644-lambda_calculus/</link><pubDate>Wed, 09 Apr 2025 16:36:28 +0800</pubDate><guid>http://localhost:1313/post/20250409143644-lambda_calculus/</guid><description>&lt;h2 id="什么是-lambda-演算"&gt;什么是 lambda 演算&lt;/h2&gt;
+&lt;p&gt;\(\lambda\) 演算（Lambda Calculus）是一种形式体系，它仅通过函数定义（抽象化）与函数应用这两种极为简单的操作来表达计算。它虽然简单，却是图灵完备的，可以模型化任何计算，并构成了函数式编程语言的理论基础。&lt;/p&gt;</description></item><item><title>2024书单</title><link>http://localhost:1313/post/2024-booklist/</link><pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/2024-booklist/</guid><description>&lt;h2 id="go语言定制指南"&gt;&lt;span class="org-todo done DONE"&gt;DONE&lt;/span&gt; &lt;span class="section-num"&gt;1&lt;/span&gt; 《go语言定制指南》&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;还不错的一本书，主要讲了Go的语法解析，语义分析， 它的AST， SST， 以及LLVM，最后利用LLVM和Go做了一个新语言的Demo&lt;/p&gt;</description></item><item><title>2023书单</title><link>http://localhost:1313/post/2023-booklist/</link><pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/2023-booklist/</guid><description>&lt;h2 id="学习-wasm-视频"&gt;&lt;span class="org-todo done DONE"&gt;DONE&lt;/span&gt; &lt;span class="section-num"&gt;1&lt;/span&gt; 《学习 wasm 视频》&lt;/h2&gt;
+&lt;h2 id="牧羊少年奇幻之旅"&gt;&lt;span class="org-todo done DONE"&gt;DONE&lt;/span&gt; &lt;span class="section-num"&gt;2&lt;/span&gt; 《牧羊少年奇幻之旅》&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;EFFORT: 1:51
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;你追寻梦想，整个世界都会帮你&lt;/p&gt;</description></item><item><title>2022书单</title><link>http://localhost:1313/post/2022-booklist/</link><pubDate>Sat, 31 Dec 2022 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/2022-booklist/</guid><description>&lt;h2 id="courage-to-be-disliked"&gt;&lt;span class="org-todo done DONE"&gt;DONE&lt;/span&gt; &lt;span class="section-num"&gt;1&lt;/span&gt; 《Courage To Be Disliked》&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;AUTHOR: Fumitake Koga Ichiro Kishimi
+
+RATNEXT: :star::star::star::star::star:
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;NOTE: 非常好的一本书，以前看过一下个体心理学的东西，这本书全面介绍了阿德勒的思想，概览了他的思想。&lt;/p&gt;</description></item><item><title>对抗脆弱性</title><link>http://localhost:1313/post/fragile/</link><pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/fragile/</guid><description>&lt;h2 id="背景"&gt;背景&lt;/h2&gt;
+&lt;p&gt;4 月的时候上了一个新项目, 项目是搭建一个平台给 flutter 应用做 E2E 自动化测试，项目架构可以简化成下图.&lt;/p&gt;</description></item><item><title>卓有成效的管理者</title><link>http://localhost:1313/post/management/</link><pubDate>Mon, 09 Aug 2021 17:00:38 +0800</pubDate><guid>http://localhost:1313/post/management/</guid><description>&lt;p&gt;书里总结了五个部分： &lt;br/&gt;&lt;/p&gt;
+&lt;h2 id="时间管理"&gt;时间管理&lt;/h2&gt;
+&lt;p&gt;方法: 记录时间, 管理时间, 统一管理时间(把碎片时间聚拢起来,零零碎碎的时间，纵然总数有 3/4 个工作日，也是毫无用处) &lt;br/&gt;&lt;/p&gt;</description></item><item><title>低代码</title><link>http://localhost:1313/post/low-code/</link><pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/low-code/</guid><description>&lt;h2 id="低代码"&gt;低代码&lt;/h2&gt;
+&lt;h3 id="m-项目"&gt;M 项目&lt;/h3&gt;
+&lt;p&gt;去年 3 月，上了一个 M 项目，当时客户想要做一个工作流平台给 People 团队来支撑员工入离职·请假等流程。客户前期在技术选型方面和以往的项目都不太一样，前端是一个成本很高的表单引擎，后端是一个业务流。
+前端表单引擎可以通过定义 yaml 文件快速生成一个员工表单页面，甚至这个页面会根据登录的员工预填其个人信息，但这个引擎对开发非常不友好，生成出来的表单，想做一点修改都非常困难，比如记得当时有一个文字对齐的 bug，和表单引擎的开发团队聊完之后发现完全无能为力。表单在收集了员工填写的信息之后，会发给后端，后端整理一下数据然后触发一个业务流（当时我们调研了 Microsoft flow, AWS stepFunction 等工具后选了 Step Function), 业务流会根据表单内容相应地给员工 manager 和 HR 等相关人员在相应时间结点发邮件，创建工单。&lt;/p&gt;</description></item><item><title>FP 学习笔记(基于 JS)</title><link>http://localhost:1313/post/fp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link><pubDate>Wed, 26 May 2021 00:00:00 +0000</pubDate><guid>http://localhost:1313/post/fp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 id="基本概念"&gt;基本概念&lt;/h2&gt;
+&lt;p&gt;chain 就是 compose(join，map)&lt;/p&gt;</description></item><item><title>前端学习笔记</title><link>http://localhost:1313/post/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link><pubDate>Mon, 24 May 2021 17:12:05 +0800</pubDate><guid>http://localhost:1313/post/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 id="react-native"&gt;React Native&lt;/h2&gt;
+&lt;p&gt;前言: 最近独自上了一个纯前端 RN 的小项目, 项目没有后端, 前端用 RN 做原型, 这个项目后面还要用 RN 做一个大的项目, 所以趁这段时间, 学习整理下 RN 的入门知识, 主要针对从有 React 基础的人.&lt;/p&gt;</description></item></channel></rss>
